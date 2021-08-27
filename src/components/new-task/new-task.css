@@ -1,0 +1,32 @@
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.new-task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.add-new-task {
+    margin-top: 3rem;
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+.add-button {
+    margin-top: 3rem;
+    height: 30px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-button:hover {
+  cursor: pointer;
+  filter: brightness(0.95);
+}

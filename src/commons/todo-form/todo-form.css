@@ -1,0 +1,49 @@
+.todo-form-container {
+    margin-top: 1.5rem;
+}
+
+.description-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.description {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.option .due-date {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.option .priority {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.option .due-date-option {
+  width: 45%;
+}
+
+.option .due-date-option .due-date-input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 2rem;
+}
+
+.option .priority-option {
+  width: 45%;
+}
+
+.option .priority-option .select-input {
+  width: 100%;
+  height: 2rem;
+}

@@ -1,0 +1,49 @@
+.bulk-action-container {
+  display: flex;
+  border: 1px solid black;
+  height: 80px;
+  background-color: lightslategray;
+}
+
+.bulk-action-title {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+
+.bulk-action-container .spacer {
+  flex-grow: 2;
+}
+
+.bulk-action-done {
+  border-radius: 5px;
+  background-color: lightblue;
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 40px;
+  margin-right: 1rem;
+  width: 120px;
+}
+
+.bulk-action-done:hover {
+  cursor: pointer;
+  filter: brightness(0.95);
+}
+
+.bulk-action-remove {
+  border-radius: 5px;
+  background-color: lightcoral;
+  border: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 40px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 120px;
+}
+
+.bulk-action-remove:hover {
+  cursor: pointer;
+  filter: brightness(0.95);
+}
